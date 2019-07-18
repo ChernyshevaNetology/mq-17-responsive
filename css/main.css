@@ -75,7 +75,7 @@ body {
 .mobile_apps {
 	display: flex;
 	justify-content: center;
-	margin-top: 14rem;
+	margin-top: 10vh;
 }
 
 .button {
@@ -125,11 +125,13 @@ body {
 	color: #ffffff;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	margin-top: 12rem;
-}
+	margin: 20vh auto;
+	width: 98%
+
+}  
 
 .right {
-	margin-left: 30%;
+	text-align: right;
 }
 
 .section_title {
@@ -143,6 +145,7 @@ body {
 .players .section_title
 {
 	margin-top: 3rem;
+	flex-basis: 50%;
 }
 
 .section_subtitle {
@@ -170,10 +173,11 @@ body {
 }
 
 
-.athlets .container .section_title {
+/* .athlets .container .section_title {
 	flex-grow: 1;
 	margin-left: 38rem;
-}
+	border: 1px solid red;
+} */
 
 .growth .counter {
 	color: #0a0e34;	
@@ -251,6 +255,7 @@ body {
 
 .header .container {
 	min-height: 100vh;
+	
 }
 
 .arrow {
@@ -262,7 +267,7 @@ body {
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 2rem;
+    bottom: 5vh;
 	margin: auto;
 	display: flex;
 	justify-content: center;
@@ -467,7 +472,10 @@ body {
 	margin-top: 1.5rem;
 }
 
-	}
+.section_counter {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+
+}
 	
 	/* .players:after {
 		background-size: 89%;
