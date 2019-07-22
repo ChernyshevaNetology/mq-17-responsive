@@ -18,13 +18,10 @@
 
 <header id="header" class="header">
     <div class="container">
-      <div class="logo">
-        <a href="#"><img src="images/surface_logo_text.svg" alt="" class="logo_image"></a>
-      </div>
-      <div class="header_title">
-        <h1>be recruited</h1>
-        <h1 class="right">Play college sports</h1>
-      </div>
+      <a class="logo" href="#"><img src="images/surface_logo_text.svg" alt="" class="logo_image"></a>
+    <div class="header_title">
+      <h1>be recruited <br /><span class="right">play college sports</span></h1>
+    </div>
       <div class="mobile_apps">
         <a class="button ios_button" href="#">
           <p class="button_text">download on the <br /> <span>app store</span></p>
@@ -138,52 +135,67 @@
 </section> <!-- section players end -->
     
 <section class="be_active">
-  <div class="section_image">
-    <img src="images/be-active_1024.jpg" alt="image">
-  </div>
+  <picture class="section_image">
+    <source srcset="images\be-active_960.jpg" media="(max-width: 960px)">
+    <source srcset="images\be-active.jpg"  media="(max-width: 768px)">
+    <source srcset="images\be-active_640.jpg" media="(max-width: 640px)">
+    <img  src="images/be-active_1024.jpg" alt="be active section image"
+    srcset="images/be-active_1024.jpg">   
+  </picture>
   <div class="be_active_content">
-    <div class="section_counter">
+    <div class="content_breakdown">
+      <div class="section_counter">
         <span class="section_counter_num">01</span>
-    </div>
-  <h3 class="section_title">
-        be active
-    </h3>
-    <p class="section_text">
-        Post videos with your skills, Like and follow others 
-  to be more popular.
+      </div>
+        <h3 class="section_title">
+          be active
+      </h3>
+      <p class="section_text">
+          Post videos with your skills, Like and follow others 
+    to be more popular.
     </p>
+    </div> 
   </div>
 </section> <!-- section be active end -->
 
 <section class="find_contact">
-    <div class="section_image">
-      <img src="images/find-contact_1024.jpg" alt="image">
-    </div>
+  <picture class="section_image">
+    <source srcset="images\find-contact_960.jpg" media="(max-width: 960px)">
+    <source srcset="images\find-contact.jpg"  media="(max-width: 768px)">
+    <source srcset="images\find-contact_640.jpg" media="(max-width: 640px)">
+    <img  src="images/find-contact_1024.jpg" alt="be active section image"
+    srcset="images/find-contact_1024.jpg">   
+  </picture>
     <div class="find_contact_content">
+     <div class="content_breakdown">
       <div class="section_counter">
-          <span class="section_counter_num">02</span>
+        <span class="section_counter_num">02</span>
       </div>
-    <h3 class="section_title">
+      <h3 class="section_title">
         find contact
       </h3>
       <p class="section_text">
           Contact others to find right coach or athlete you are
-          looking for
+          looking for.
       </p>
+     </div>
     </div>
   </section> <!-- section be active end -->
 
-
-
 <section class="work_it">
-  <div class="section_image">
-    <img src="images/work-it_1024.jpg" alt="">
-  </div>
+<picture class="section_image">
+  <source srcset="images/work-it_960.jpg" media="(max-width: 960px)">
+  <source srcset="images/work-it.jpg"  media="(max-width: 768px)">
+  <source srcset="images/work-it_640.jpg" media="(max-width: 640px)">
+  <img  src="images/work-it_1024.jpg" alt="work it section image"
+  srcset="images/work-it_1024.jpg">   
+</picture>
   <div class="work_it_content">
-      <div class="section_counter">
+      <div class="content_breakdown">
+        <div class="section_counter">
           <span class="section_counter_num">01</span>
-      </div>
-      <h3 class="section_title">
+        </div>
+        <h3 class="section_title">
           work it
       </h3>
       <p class="section_text">
@@ -191,6 +203,7 @@
 can be overwhelming, we want to make this 
 enjoyable experience. 
       </p>
+   </div>
   </div>
  </section>
 </main> 
