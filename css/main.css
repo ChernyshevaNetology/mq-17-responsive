@@ -478,9 +478,7 @@ body {
 }
 
 .players_picture {
-	width: 70%;
-	overflow: hidden;
-	top: 0rem;
+
 }
 
 .athlets_picture img {
@@ -633,7 +631,6 @@ body {
    .section_image img {
 	width: 100%;
 	height: 100%;
-	margin-bottom: -5px;
 
 }
 
@@ -709,7 +706,6 @@ body {
 	top: 9rem;
 	right: 50%;
 	transform: translate(50%);
-	width: 100%;
 }
 
 .section_title {
